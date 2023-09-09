@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGx Stage 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <section id="info-card">
+        <div id="image-container">
+          <img
+            id="slackDisplayImage"
+            src="image1.jpg"
+            alt="Victor-V"
+            data-testid="slackDisplayImage"
+          />
+          <div id="name-and-track">
+            <h2 data-testid="slackUserName">Victor-V</h2>
+            <h4 data-testid="myTrack">Frontend Track</h4>
+          </div>
+        </div>
+      </section>
+      <div id="day-and-time">
+        <!-- The day and time will be displayed in this container -->
+        <p>
+          Today:
+          <span id="current-day" data-testid="currentDayOfTheWeek"></span>
+        </p>
+        <p>
+          UTC time: <span id="current-time" data-testid="currentUTCTime"></span>
+        </p>
+      </div>
+      <a href="">
+        <button id="githubRepo">Github Repository</button>
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

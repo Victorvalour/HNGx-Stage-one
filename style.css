@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px;
+  background-color: #c9d3f2;
+}
+
+#main-container {
+  margin: 0px;
+}
+#info-card {
+  display: flex;
+  max-width: 80%;
+  background-color: #5aa9e5;
+  margin: 5px auto;
+  border: 3px solid #2b4266;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  font-size: 1.5rem;
+}
+h2,
+h4 {
+  margin: 15px auto;
+}
+
+#image-container {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#slackDisplayImage {
+  max-width: inherit;
+  border-radius: 25%;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
+}
+#day-and-time {
+  padding-left: 25px;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#githubRepo {
+  font-size: 2rem;
+}
+#githubRepo:hover {
+  background-color: greenyellow;
+  transform: scale(1.2);
+}
