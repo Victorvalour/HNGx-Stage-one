@@ -45,8 +45,9 @@ h4 {
 
 #githubRepo {
   font-size: 2rem;
+  background-color: rgb(141, 255, 35);
 }
 #githubRepo:hover {
-  background-color: greenyellow;
+  background-color: rgb(115, 183, 13);
   transform: scale(1.2);
 }
